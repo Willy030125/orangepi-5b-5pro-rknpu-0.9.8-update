@@ -4,7 +4,7 @@
 This guide provides detailed instructions to update the RKNPU driver to version 0.9.8 on an Orange Pi 5B  (or similar models) running Jammy 1.0.8 with the Linux 6.1.43-rockchip-rk3588 kernel. Upgrading the RKNPU driver is essential for successfully running RKLLM multimodal models. You can follow this guide for other models of Orange Pi 5 boards with official Orange Pi ubuntu images.
 
 
-**You can download the prebuilt [linux-image-current-rockchip-rk3588_1.0.8_arm64.deb](https://github.com/cse-repon/orangepi-5b-rknpu-0.9.8-update/blob/830e587c5bc9ae39f2655caad8d7e837f42d3935/linux-image-current-rockchip-rk3588_1.0.8_arm64.deb) and jump to step 9 directly** or continue building the kernel on your board.
+**You can Clone this repository and jump to step 9 directly** or continue building the kernel on your board.
 
 
 You can download the working rkllm models from below HF links for running the [examples of RKNN LLM repository](https://github.com/airockchip/rknn-llm/tree/main/examples):
